@@ -1,3 +1,3 @@
 # UnwishingMoon
 
-A simple one page website for the unwishingmoo.com website
+A simple one page website for the unwishingmoon.com website
