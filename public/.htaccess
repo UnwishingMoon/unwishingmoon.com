@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+#Redirect to www
+RewriteCond %{HTTP_HOST} ^unwishingmoon\.com [NC]
+RewriteRule ^(.*)$ https://www.unwishingmoon.com/$1 [R=301,L]

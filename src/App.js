@@ -6,7 +6,7 @@ function App() {
         <Container className="d-flex flex-column text-center justify-content-center align-items-center" style={{minHeight: "100vh", marginTop: -5}}>
             <Row>
                 <Col>
-                    <Image src="./logo.png" rounded fluid style={{width: "50%", maxWidth: 300}} />
+                    <Image src="./logo.png" alt="logo" rounded fluid style={{width: "50%", maxWidth: 300}} />
                 </Col>
             </Row>
             <Row>
