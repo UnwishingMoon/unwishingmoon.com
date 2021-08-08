@@ -30,6 +30,11 @@ function App() {
                         <FaGithub color="white" />
                     </a>
                 </Col>
+                <Col>
+                    <a href="https://www.twitter.com/_diegocastagna" target="_blank" rel="noreferrer" title="Twitter">
+                        <FaTwitter color="white" />
+                    </a>
+                </Col>
             </Row>
         </Container>
     );
