@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitch, FaTwitter } from 'react-icons/fa';
+import { FaTwitch, FaTwitter } from 'react-icons/fa';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 
 function App() {
@@ -26,12 +26,7 @@ function App() {
                     </a>
                 </Col>
                 <Col>
-                    <a href="https://github.com/UnwishingMoon" target="_blank" rel="noreferrer" title="Github">
-                        <FaGithub color="white" />
-                    </a>
-                </Col>
-                <Col>
-                    <a href="https://www.twitter.com/_diegocastagna" target="_blank" rel="noreferrer" title="Twitter">
+                    <a href="https://www.twitter.com/unwishingmoon" target="_blank" rel="noreferrer" title="Twitter">
                         <FaTwitter color="white" />
                     </a>
                 </Col>
